@@ -3,7 +3,7 @@
 .video-player {
     position: relative;
 
-    &__videp {
+    &__video {
         width: 100%;
         height: fluid(412, 210);
         object-fit: cover;
@@ -11,6 +11,10 @@
 
         @include laptop {
             border-radius: rem(10);
+        }
+
+        &--small {
+            height: fluid(290, 208);
         }
     }
 
