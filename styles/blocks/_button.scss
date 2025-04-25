@@ -34,4 +34,10 @@
     &--dark-gray {
         background-color: var(--color-dark-10);
     }
+
+    &--full-width {
+        @include mobile {
+            width: 100%;
+        }
+    }
 }
