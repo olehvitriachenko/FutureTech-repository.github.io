@@ -20,6 +20,8 @@
             var(--color-accent) 136%) border-box;
     --border: #{rem(1)} solid var(--color-dark-15);
 
+    --shadow: 0 0 0 #{rem(3)} #191919;
+
     --font-family-base: 'Inter', sans-serif;
     --font-family-accent: 'Kumbh Sans', sans-serif;
 
@@ -27,6 +29,8 @@
     --container-padding-x: #{rem(16)};
 
     --transition-duration: 0.2s;
+
+    --100vw: calc(100vw - var(--scrollbar-width));
 
     @include laptop {
         --container-width: #{rem(1280)};

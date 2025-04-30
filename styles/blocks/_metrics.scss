@@ -43,10 +43,10 @@
     }
 
     &__item {
-        justify-content: start;
         display: flex;
-        align-items: start;
         flex-direction: column-reverse;
+        justify-content: start;
+        align-items: start;
         row-gap: rem(10);
         padding: rem(50);
 
