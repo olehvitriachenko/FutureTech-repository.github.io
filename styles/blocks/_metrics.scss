@@ -6,6 +6,7 @@
     &--4-cols {
         --colums: 4;
 
+        text-align: center;
 
         @include tablet-above {
             .metrics__item:nth-child(4n) {
@@ -24,11 +25,11 @@
                 &:nth-child(odd) {
                     padding-left: var(--container-padding-x);
                 }
-            }
 
-            &:nth-child(even) {
-                padding-right: var(--container-padding-x);
-                border-right: none;
+                &:nth-child(even) {
+                    padding-right: var(--container-padding-x);
+                    border-right: none;
+                }
             }
         }
     }
@@ -36,10 +37,6 @@
     &__list {
         display: grid;
         grid-template-columns: repeat(var(--colums), 1fr);
-
-        @include mobile {
-            --colums: 2;
-        }
     }
 
     &__item {
