@@ -13,5 +13,4 @@ new ExpandableContentCollection();
 new InputMaskCollection();
 new SelectCollection();
 
-defineScrollBarWidthCSSVar()
-
+defineScrollBarWidthCSSVar();
